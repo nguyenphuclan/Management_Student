@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA96DF431ECAEDD3002C4C22 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96DF421ECAEDD3002C4C22 /* Detail.swift */; };
 		DAD6D0D81EC9FD650072441C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D0D71EC9FD650072441C /* AppDelegate.swift */; };
-		DAD6D0DA1EC9FD650072441C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D0D91EC9FD650072441C /* ViewController.swift */; };
 		DAD6D0DD1EC9FD650072441C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD6D0DB1EC9FD650072441C /* Main.storyboard */; };
 		DAD6D0DF1EC9FD650072441C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD6D0DE1EC9FD650072441C /* Assets.xcassets */; };
 		DAD6D0E21EC9FD650072441C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD6D0E01EC9FD650072441C /* LaunchScreen.storyboard */; };
 		DAD6D0ED1EC9FD660072441C /* ManagementStudentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D0EC1EC9FD660072441C /* ManagementStudentTests.swift */; };
 		DAD6D0F81EC9FD660072441C /* ManagementStudentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D0F71EC9FD660072441C /* ManagementStudentUITests.swift */; };
+		DAD6D1091EC9FDFB0072441C /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D1081EC9FDFB0072441C /* Student.swift */; };
+		DAD6D10D1ECA071C0072441C /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D10C1ECA071C0072441C /* StudentTableViewCell.swift */; };
+		DAD6D10F1ECA09670072441C /* AddStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D10E1ECA09670072441C /* AddStudentViewController.swift */; };
+		DAD6D1111ECA15EA0072441C /* ManagementStudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D1101ECA15EA0072441C /* ManagementStudentTableViewController.swift */; };
+		DAD6D1131ECA160E0072441C /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD6D1121ECA160E0072441C /* StudentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA96DF421ECAEDD3002C4C22 /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		DAD6D0D41EC9FD650072441C /* ManagementStudent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManagementStudent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD6D0D71EC9FD650072441C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAD6D0D91EC9FD650072441C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAD6D0DC1EC9FD650072441C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAD6D0DE1EC9FD650072441C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAD6D0E11EC9FD650072441C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		DAD6D0F31EC9FD660072441C /* ManagementStudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManagementStudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD6D0F71EC9FD660072441C /* ManagementStudentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementStudentUITests.swift; sourceTree = "<group>"; };
 		DAD6D0F91EC9FD660072441C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD6D1081EC9FDFB0072441C /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		DAD6D10C1ECA071C0072441C /* StudentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		DAD6D10E1ECA09670072441C /* AddStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudentViewController.swift; sourceTree = "<group>"; };
+		DAD6D1101ECA15EA0072441C /* ManagementStudentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagementStudentTableViewController.swift; sourceTree = "<group>"; };
+		DAD6D1121ECA160E0072441C /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				DAD6D0D71EC9FD650072441C /* AppDelegate.swift */,
-				DAD6D0D91EC9FD650072441C /* ViewController.swift */,
 				DAD6D0DB1EC9FD650072441C /* Main.storyboard */,
 				DAD6D0DE1EC9FD650072441C /* Assets.xcassets */,
 				DAD6D0E01EC9FD650072441C /* LaunchScreen.storyboard */,
+				DAD6D1081EC9FDFB0072441C /* Student.swift */,
 				DAD6D0E31EC9FD650072441C /* Info.plist */,
+				DAD6D10C1ECA071C0072441C /* StudentTableViewCell.swift */,
+				DAD6D10E1ECA09670072441C /* AddStudentViewController.swift */,
+				DAD6D1101ECA15EA0072441C /* ManagementStudentTableViewController.swift */,
+				DAD6D1121ECA160E0072441C /* StudentDetailViewController.swift */,
+				DA96DF421ECAEDD3002C4C22 /* Detail.swift */,
 			);
 			path = ManagementStudent;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAD6D0DA1EC9FD650072441C /* ViewController.swift in Sources */,
+				DAD6D10F1ECA09670072441C /* AddStudentViewController.swift in Sources */,
+				DA96DF431ECAEDD3002C4C22 /* Detail.swift in Sources */,
+				DAD6D1131ECA160E0072441C /* StudentDetailViewController.swift in Sources */,
+				DAD6D1111ECA15EA0072441C /* ManagementStudentTableViewController.swift in Sources */,
 				DAD6D0D81EC9FD650072441C /* AppDelegate.swift in Sources */,
+				DAD6D1091EC9FDFB0072441C /* Student.swift in Sources */,
+				DAD6D10D1ECA071C0072441C /* StudentTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +525,7 @@
 				DAD6D0FE1EC9FD660072441C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAD6D0FF1EC9FD660072441C /* Build configuration list for PBXNativeTarget "ManagementStudentTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				DAD6D1011EC9FD660072441C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DAD6D1021EC9FD660072441C /* Build configuration list for PBXNativeTarget "ManagementStudentUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				DAD6D1041EC9FD660072441C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
